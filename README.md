@@ -1,6 +1,6 @@
 ## Tecnologies
 
-### `
+### 
 
     - React 18
     - Typescript
@@ -12,7 +12,7 @@
     - Styled Components
     - Prop Types
 
-`
+
 
 ## Available Scripts
 
