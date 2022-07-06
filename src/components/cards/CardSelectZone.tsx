@@ -9,13 +9,12 @@ const CardSelectZone = () => {
       <Container>
         <Card.Body>
           <Card.Title className="text-center">
-            <Title>
-              Selecciona la zona
-            </Title>
+            <Title>Selecciona una zona</Title>
             <LineHr />
           </Card.Title>
           <Form>
             <FormSelect label="Pais" placeholder="Selecciona un pais" />
+            <FormSelect label="Ciudad" placeholder="Selecciona una ciudad" />
           </Form>
           <ButtonComponent text="Buscar" />
         </Card.Body>

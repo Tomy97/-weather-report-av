@@ -13,6 +13,9 @@
     - Prop Types
 
 
+## Install dependencies
+Run command 
+### `npm install or npm i`
 
 ## Available Scripts
 

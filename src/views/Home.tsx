@@ -6,11 +6,9 @@ import "./Home.scss";
 const Home = () => {
   return (
     <div>
-      <h2 className="text-uppercase text-center mt-4">
-        <Title>
-          Servicio del clima
-        </Title>
-      </h2>
+      <Title className="text-uppercase text-center mt-4">
+        Servicio del clima
+      </Title>
       <hr className="linea mb-3" />
       <Row>
         <Col sm={12} md={6}>

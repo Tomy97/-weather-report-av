@@ -8,7 +8,7 @@ const ButtonLogin = () => {
   const handleClose = () => setShow(true);
   return (
     <>
-      <Button className="text-uppercase btn-av fw-bold" onClick={handleClose}>
+      <Button className="text-uppercase btn-av fw-bold box-shadow-none" onClick={handleClose}>
         Iniciar Sesion
         <i className="bi bi-person-fill mx-1"></i>
       </Button>
