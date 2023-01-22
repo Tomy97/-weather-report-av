@@ -4,6 +4,11 @@ import ButtonComponent from "../buttons/ButtonComponent";
 import FormSelect from "../form/FormSelect";
 
 const CardSelectZone = () => {
+  const handleClick = (e: any) => {
+    e.preventDefault();
+    
+    console.log("Click");
+  };
   return (
     <Card>
       <Container>
@@ -12,11 +17,11 @@ const CardSelectZone = () => {
             <Title>Selecciona una zona</Title>
             <LineHr />
           </Card.Title>
-          <Form>
+          <Form onClick={handleClick}>
             <FormSelect label="Pais" placeholder="Selecciona un pais" />
             <FormSelect label="Ciudad" placeholder="Selecciona una ciudad" />
+            <ButtonComponent text="Buscar" />
           </Form>
-          <ButtonComponent text="Buscar" />
         </Card.Body>
       </Container>
     </Card>
