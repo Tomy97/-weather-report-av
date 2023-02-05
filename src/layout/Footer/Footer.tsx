@@ -1,14 +1,16 @@
-import React from "react";
 import { Container } from "react-bootstrap";
 
 const Footer = () => {
   const date = new Date();
   const year = date.getFullYear();
-  console.log(year);
 
   return (
-    <Container fluid>
-      <h1>Footer</h1>
+    <Container fluid className="bg-av">
+      <footer className="text-center text-white">
+        <div className="text-center p-3">
+          © {year} - Derechos reservados por Tomas Pandullo
+        </div>
+      </footer>
     </Container>
   );
 };

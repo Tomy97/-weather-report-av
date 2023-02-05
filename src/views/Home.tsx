@@ -10,7 +10,7 @@ const Home = () => {
       <Title className="text-uppercase text-center mt-4 text-black">
         Servicio del clima
       </Title>
-      <hr className="linea mb-3" />
+      <hr className="line_separator mb-3" />
       <Row>
         <Col sm={12} md={6}>
           <CardSelectZone />

@@ -6,10 +6,12 @@ import NavbarComponent from "./Navbar/NavbarComponent";
 export const Layout = () => {
   return (
     <>
-      <NavbarComponent />
-      <Container>
-        <Home />
-      </Container>
+      <div className="min-vh-100">
+        <NavbarComponent />
+        <Container>
+          <Home />
+        </Container>
+      </div>
       <Footer />
     </>
   );

@@ -1,5 +1,6 @@
 import { ImageStyle } from "../styled-components/ImageStyle";
 export const ImageComponent = () => {
+  
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
